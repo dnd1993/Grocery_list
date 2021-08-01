@@ -1,6 +1,3 @@
-//payload is an object that contains all the variables that we need to perform the action (one of the types of our despatch func)
-//it helps us to get an access to our state variables inside of an Index component which wouldn't be accesible in our Todo comp. otherwise
-
 import React, { useState, useReducer, useRef, useEffect } from "react";
 import Modal from "./Modal";
 import { reducer } from "./reducer";
@@ -113,10 +110,9 @@ const Index = () => {
           </button>
         )}
         {state.showModal && (
-        <Modal modalMessage={state.modalMessage} closeModal={closeModal} />
-      )}
+          <Modal modalMessage={state.modalMessage} closeModal={closeModal} />
+        )}
       </section>
-      
     </>
   );
 };
