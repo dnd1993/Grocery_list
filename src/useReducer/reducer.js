@@ -4,7 +4,7 @@ export const reducer = (state, action) => {
     return {
       ...state,
       showModal: true,
-      modalMessage: "Item was added",
+      modalMessage: "Item has been added",
       list: newList,
     };
   }
@@ -36,7 +36,7 @@ export const reducer = (state, action) => {
     return {
       ...state,
       showModal: true,
-      modalMessage: "Item deleted",
+      modalMessage: "Item has been deleted",
       list: newList,
     };
   }

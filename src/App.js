@@ -1,7 +1,7 @@
 import React from "react";
-import UseReducer from "./useReducer/grocery_list";
+import UseReducer from "./useReducer/";
 function App() {
-  return  <UseReducer />
+  return <UseReducer />;
 }
 
 export default App;
